@@ -1,0 +1,22 @@
+import deps.Libraries
+
+buildscript {
+
+    repositories {
+        google()
+        mavenCentral()
+        //noinspection JcenterRepositoryObsolete
+        jcenter()
+    }
+
+    dependencies {
+        classpath Libraries.Android.gradle
+        classpath Libraries.Androidx.Navigation.safeArgsPlugin
+        classpath Libraries.Google.Hilt.plugin
+        classpath Libraries.Kotlin.plugin
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

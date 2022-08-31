@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Match Clean Architecture Example</string>
+
+    <string name="currency_list_error">Cannot show currencies. Try again later</string>
+    <string name="currency_item_name">Name: %1$s</string>
+    <string name="currency_item_unit">Unit: %1$s</string>
+    <string name="currency_item_type">Type: %1$s</string>
+    <string name="currency_item_value">Value: %1$s</string>
+</resources>
